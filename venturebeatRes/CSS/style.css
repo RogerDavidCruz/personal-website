@@ -1,0 +1,219 @@
+*{
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 10px;
+} */
+
+header {
+  height: 50px;
+  width: 100%;
+  border: 2px solid black;
+  background: rgb(36,31,32);
+}
+
+ul {
+  list-style: none;
+}
+
+header nav ul li {
+  height:auto;
+  width:auto;
+  margin: 1px 2% 1px 2%;
+  float: left;
+  color: white;
+}
+
+h2 {
+  height: 9rem;
+  width: 40%;
+  margin: 330px 0 0 20%;
+  font-size: 2.5em;
+  background: white;
+  opacity: 0.8;
+}
+
+
+header nav ul li:first-of-type{
+  margin: -1% 25% 1px 10%;
+}
+
+header + section{
+  height:500px;
+  width:100%;
+  border: 2px solid black;
+  background: url(../images/andes.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+body section > section {
+  height: 12rem;
+  width: 40%;
+  border-bottom: 1px solid gray;
+  margin: 1rem 0 1rem 20%;
+}
+
+.bottomSec section img {
+    height: 11rem;
+    width: 50%;
+    margin-right: 2%;
+    float: left;
+}
+
+.bottomSec section small span {
+  color: blue;
+}
+
+small {
+    font-size: 1rem;
+}
+
+/* media inquiries for ipad */
+@media (min-width:412px) and (max-width:1024px) {
+
+  header nav ul li:first-of-type {
+    margin: -1% 10% 1px 0%;
+  }
+
+  img.vbLogo {
+    height: 2rem;
+  }
+
+  header + section {
+      height: 30rem;
+      width: 100%;
+      border: 2px solid black;
+      background: url(../images/andes.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+
+  h2 {
+      height: 10rem;
+      width: 60%;
+      margin: 243px 0 0 20%;
+      font-size: 2em;
+      background-color: white;
+      opacity: 0.8;
+  }
+
+  h2 {
+      height: 10rem;
+      width: 60%;
+      margin: 243px 0 0 20%;
+      font-size: 2em;
+      background-color: white;
+      opacity: 0.8;
+  }
+  body section > section {
+      margin: 0;
+      height: auto;
+      width: auto;
+  }
+
+  section section > img {
+      float: none;
+      image-orientation: center;
+      height: 30rem;
+      width: 100%;
+  }
+
+  .bottomSec {
+    width: 100%;
+  }
+
+  .bottomSec section img {
+      height: 25rem;
+      width: 75%;
+      margin-left: 12%;
+      float: left;
+  }
+
+  section section > h3, small {
+      width: 74%;
+      margin-left: 12%;
+  }
+
+  .bottomSec section span {
+    color: blue;
+  }
+
+  small {
+      font-size: 1rem;
+  }
+
+
+}
+
+
+
+
+/* Meadia inquiries for mobile  */
+@media only screen and (max-width:411px) {
+
+  header nav ul li:first-of-type {
+      margin: -3% 0% 0px 0%;
+  }
+
+  img.vbLogo {
+    height: 2rem;
+  }
+
+
+header nav ul li {
+  margin: 1px 2% 1px 3%;
+  float: left;
+  color: white;
+  font-size: 0.7rem;
+}
+
+header + section {
+    height: 30rem;
+    width: 100%;
+    border: 2px solid black;
+    background: url(../images/andes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+  .bottomSec {
+    width: 100%;
+  }
+
+  h2 {
+      height: 6rem;
+      width: 60%;
+      margin: 15rem 0 0 20%;
+      font-size: 1.5em;
+  }
+
+  body section > section {
+      border-bottom: 0.1rem solid gray;
+      margin: 0;
+      height: auto;
+      width: auto;
+  }
+
+
+  section section > img {
+    float: none;
+    width: 100%;
+  }
+
+
+  .bottomSec section img {
+      height: 11rem;
+      width: 100%;
+      margin: 0;
+      float: left;
+  }
+
+  small {
+      font-size: 1rem;
+  }
+
+
+}

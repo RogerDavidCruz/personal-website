@@ -1,0 +1,598 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* use this for individual sections */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(91,107,127);
+}
+
+header img {
+    height: 10rem;
+    width: 10%;
+    float: left;
+    margin: 0 0 0 25%;
+}
+
+nav {
+  width: 100%;
+}
+
+header nav ul {
+    float: left;
+    padding: 0;
+    width: 20%;
+}
+
+span {
+  display: block;
+  float: left;
+}
+
+
+header ul li {
+    list-style: none;
+    font-size: 1.5em;
+    display: inline;
+    padding: 0 0 0 5%;
+    font-size: 3rem;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0 0 0 0;
+}
+
+header nav button {
+    margin: 1rem 0 0 35%;
+    width: 7%;
+    height: 3rem;
+    float: left;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+p {
+  font-size: 3em;
+}
+
+
+
+.topBigSection{
+  width: 100%;
+  background-color:rgb(91,107,127);
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.belowSections {
+    font-size: 2.5em;
+    float: left;
+}
+
+h4 {
+  font-size: 3em;
+  float: left;
+  width: 100%;
+}
+
+body section h3 + .belowSections {
+  text-align: center;
+  padding: 0 25% 0 25%;
+}
+
+.middleSection {
+ background-color: rgb(214,218,222);
+ float: left;
+}
+
+.centerMid{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.centerMid aside {
+    border: 2px solid gray;
+    height: 30rem;
+    width: 70%;
+    float: left;
+    margin: 5rem 0 0 15%;
+    background-color: gray;
+}
+
+.volunteer button {
+    margin: 0 0 3rem 35%;
+    float: left;
+    border: 0.2rem solid gray;
+    background-color: white;
+    height: 5rem;
+    width: 30%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.centerMid aside {
+      border: 2px solid gray;
+      height: 25rem;
+      width: 50%;
+      float: left;
+      margin: 5rem 0 0 25%;
+      background-color: gray;
+  }
+
+footer {
+  background-color: black;
+  float: left;
+  width: 100%;
+}
+
+.footerLeft {
+  width: 75%;
+  float: left;
+}
+
+.footerRight {
+  width: 20%;
+  float:left;
+}
+
+.footerRight ul {
+  list-style: none;
+}
+
+.icons li {
+  display: inline-block;
+  padding-right: 5%;
+}
+
+.icons {
+font-size: 3rem;
+margin-bottom: 0;
+}
+
+ul.icons {
+    margin-bottom: 0;
+}
+
+
+
+
+footer .footerLeft h6 {
+  font-size: 1.5rem;
+  color: gray;
+  margin-bottom: 0;
+}
+
+footer .footerLeft span {
+  color: white;
+  font-size: 1rem;
+}
+
+footer .footerLeft i {
+  color: white;
+}
+
+footer .footerRight {
+  color: white;
+}
+
+footer img {
+    height: 3rem;
+    width: 3%;
+    float: left;
+}
+
+.footerBottom {
+  width: 100%;
+  float: left;
+  color: white;
+  font-size: 1rem;
+}
+
+
+  .footerBottom p {
+    font-size: 1.5rem;
+    float: left;
+    width: 90%;
+    margin: 0 5% 0 4%;
+    color: white;
+    border-top: 1px solid white;
+}
+
+
+
+.siteMap {
+  margin: 0 0 0 5%;
+}
+
+.contribute {
+  margin: 0 0 0 5%;
+}
+
+
+.footerRight ul li {
+  font-size: 2rem;
+}
+
+.footerRight ul li:nth-of-type(2) {
+  margin-bottom: 2rem;
+}
+
+.footerRight ul {
+    padding: 0;
+}
+
+.footerBottom img {
+    height: 3rem;
+    width: 10%;
+    float: right;
+}
+
+
+
+
+
+/* media inquiries for ipad */
+
+@media (min-width:412px) and (max-width: 769px) {
+
+  body {
+      width: 100%;
+  }
+
+  header img {
+    height: 15rem;
+    width: 30%;
+    float: left;
+    margin: 0 0 0 35%;
+}
+
+    header nav ul {
+        display: none;
+        }
+
+    header nav button {
+      display: none;
+        }
+
+    header nav span {
+      display: block;
+      width: 100%;
+      text-align: center;
+      float: left;
+      }
+
+    h1 {
+        font-size: 8rem;
+        margin-top:0;
+    }
+
+      .topBigSection section p {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 5rem;
+        text-align: center;
+    }
+    .centerMid {
+      width: 100%;
+      float: left;
+      text-align: center;
+    }
+
+    .centerMid aside {
+        border: 2px solid gray;
+        height: 25rem;
+        width: 60%;
+        float: left;
+        margin: 5rem 0 0 20%;
+        background-color: gray;
+    }
+
+    .belowSections {
+        font-size: 3rem;
+    }
+
+    button {
+        margin: 0 0 3rem 38%;
+        float: left;
+        border: 0.2rem solid gray;
+        background-color: white;
+        height: 4rem;
+        width: 25%;
+        font-size: 2rem;
+    }
+
+    body section h3 + .belowSections {
+        text-align: center;
+        padding: 0;
+    }
+
+
+    .footerLeft {
+      width: 75%;
+      float: left;
+    }
+
+    .footerRight {
+      width: 20%;
+      float:left;
+    }
+
+    .footerRight ul {
+      list-style: none;
+    }
+
+    .icons li {
+      display: inline-block;
+      padding-right: 5%;
+    }
+
+    .icons {
+    font-size: 3rem;
+    margin-bottom: 0;
+    }
+
+    ul.icons {
+        margin-bottom: 0;
+    }
+
+
+
+
+    footer .footerLeft h6 {
+      font-size: 1.5rem;
+      color: gray;
+      margin-bottom: 0;
+    }
+
+    footer .footerLeft span {
+      color: white;
+      font-size: 1rem;
+    }
+
+    footer .footerLeft i {
+      color: white;
+    }
+
+    footer .footerRight {
+      color: white;
+    }
+
+    footer img {
+        height: 3rem;
+        width: 3%;
+        float: left;
+    }
+
+    .footerBottom {
+      width: 100%;
+      float: left;
+      color: white;
+      font-size: 1rem;
+    }
+
+
+      .footerBottom p {
+        font-size: 1.5rem;
+        float: left;
+        width: 90%;
+        margin: 0 5% 0 4%;
+        color: white;
+        border-top: 1px solid white;
+    }
+
+    p img {
+      float: right;
+    }
+
+    .siteMap {
+      margin: 0 0 0 5%;
+    }
+
+    .contribute {
+      margin: 0 0 0 5%;
+    }
+
+    .footerRight ul li:nth-of-type(2) {
+      margin-bottom: 2rem;
+    }
+
+    .footerRight ul li {
+      font-size: 1.5rem;
+    }
+
+    .footerBottom img {
+        height: 3rem;
+        width: 10%;
+        float: right;
+    }
+
+
+
+}
+
+
+
+/* Meadia inquiries for mobile  */
+@media only screen and (max-width: 411px) {
+
+  body {
+      width: 100%;
+  }
+
+  header img {
+      height: 6rem;
+      width: 20%;
+      float: left;
+      margin: 0 0 0 40%;
+  }
+
+  header nav ul {
+      display: none;
+      }
+
+  header nav button {
+    display: none;
+      }
+
+  header nav span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: left;
+    }
+
+  h1 {
+      font-size: 4rem;
+      margin-top:0;
+  }
+
+    .topBigSection section p {
+      font-size: 2rem;
+  }
+
+  h3 {
+      font-size: 3rem;
+      text-align: center;
+  }
+
+  .centerMid {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  .belowSections {
+      font-size: 2rem;
+  }
+
+  button {
+      margin: 0 0 2rem 38%;
+      float: left;
+      border: 2px solid gray;
+      background-color: white;
+      height: 4rem;
+      width: 25%;
+  }
+
+  body section h3 + .belowSections {
+      text-align: center;
+      padding: 0;
+  }
+
+.centerMid img {
+  width: 100%;
+
+}
+
+
+.centerMid aside {
+    border: 2px solid gray;
+    height: 20rem;
+    width: 50%;
+    float: left;
+    margin: 5rem 0 0 25%;
+    background-color: gray;
+}
+
+footer .footerLeft h6 {
+    font-size: 1rem;
+    color: gray;
+    margin: 1rem 0 0 0;
+}
+
+.icons {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+ul.icons {
+    margin-top: 1rem;
+}
+
+.footerBottom {
+  width: 100%;
+  float: left;
+  color: white;
+  font-size: 0.8rem;
+  border-top: 2px solid white;
+}
+
+.footerBottom img {
+    height: 3rem;
+    width: 10%;
+    float: right;
+}
+
+
+
+
+.footerRight ul li:nth-of-type(2){
+  margin-bottom: 2rem;
+}
+
+.footerRight ul li {
+  font-size: 1rem;
+}
+
+
+
+.siteMap {
+  margin: 0 0 0 5%;
+}
+
+.contribute {
+  margin: 0 0 0 5%;
+}
+
+.footerBottom {
+  width: 100%;
+  float: left;
+  color: white;
+  font-size: 1rem;
+}
+
+
+  .footerBottom p {
+    font-size: 0.79rem;
+    float: left;
+    width: 90%;
+    margin: 0 5% 0 4%;
+    color: white;
+    border-top: 1px solid white;
+}
+
+
+
+}
