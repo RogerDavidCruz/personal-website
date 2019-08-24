@@ -1,0 +1,298 @@
+*{box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5.3333rem;
+  margin-left: 45%;
+  -webkit-text-stroke: 0.2rem white;
+  display: inline-block;
+  color: red;
+}
+
+h1 + i {
+  font-size: 5.3333rem;
+  margin: 0;
+  -webkit-text-stroke: 0.2rem white;
+  display: inline-block;
+  color: red;
+}
+
+
+.mainSec{
+  width: 100%;
+  background-image: url("../images/ceviche.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+header ul li {
+  list-style: none;
+  padding: 0 2.5% 0 2.5%;
+  float: left;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+header ul li button {
+  background: none;
+  color: white;
+}
+
+header ul li:nth-of-type(4){
+  padding-left: 45%;
+}
+/* ------ */
+
+body section section {
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin: 150px 0 0 20%;
+}
+
+body section section ul{
+  padding: 0;
+  list-style: none;
+}
+
+body section section ul li{
+  float: left;
+  padding: 2%;
+}
+
+body section section ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+body section section form input {
+    width: 30%;
+    float: left;
+    margin: 0 0 0 0%;
+}
+
+body section span{
+  display: block;
+  margin: 0;
+  color: white;
+}
+
+
+form input::placeholder{
+  font-weight: bold;
+}
+
+/* ---------- */
+body > section:nth-of-type(2){
+  height:50px;
+  width: 100%;
+}
+
+body > section:nth-of-type(2) nav {
+  margin-left: 22%;
+}
+
+body > section:nth-of-type(2) nav ul{
+  padding: 0;
+  list-style: none;
+}
+
+body > section:nth-of-type(2) nav ul li{
+  float: left;
+  padding-left: 3%;
+}
+
+body > section:nth-of-type(2) nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+body > section:nth-of-type(2) h2{
+  text-align: center;
+}
+
+/* ------ */
+
+h3 {
+  color: rgb(228,0,0);
+  text-align: center;
+}
+
+body > section:nth-of-type(3) {
+ height: 400px;
+ width:100%;
+ display: inline-block;
+ float: left;
+}
+
+.triSquare {
+    width: 30%;
+    border: 2px solid black;
+    display: inline-block;
+    float: left;
+    margin: 10px 1.5% 10px 1.5%;
+    height: 22rem;
+    background-color: gray;
+}
+
+.triSquare img {
+  height: 150px;
+  width: 100%;
+  margin:0
+}
+
+.triSquare > i{
+  border: 2px solid rgb(254,61,64);
+  background-color: rgb(254,61,64);
+  color: white;
+  border-radius: 20%;
+  float: left;
+}
+
+.triSquare > i:nth-of-type(5){
+  border: 2px solid rgb(204,204,204);
+  background-color: rgb(204,204,204);
+  color: white;
+  border-radius: 20%;
+}
+
+span{
+  display: block;
+  float: none;
+  padding-right: 2%;
+}
+
+a{
+  float: left;
+  display: block;
+  text-decoration: none;
+}
+
+
+
+/* ADDITIONAL secret STANDARD TOOLS */
+
+.border {
+  border: 2px solid black;
+}
+
+.float {
+  float: left;
+}
+
+.block {
+  display: block;
+}
+
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+
+footer {
+    background-color: gray;
+}
+
+.browse {
+  border: 2px solid black;
+  width: 25%;
+  float: left;
+}
+
+
+.browse img {
+  float: left;
+  height: 10rem;
+  width:25%;
+}
+.browse nav span {
+  display: inline-block;
+}
+
+footer.float.border {
+    width: 100%;
+}
+
+h5 a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    margin: 0 0 0 40%;
+    font-size: 2rem;
+}
+
+/* media inquiries for ipad */
+
+@media (min-width:412px) and (max-width: 769px) {
+
+  .browse img {
+    width: 100%;
+    float: left;
+  }
+
+  .browse span {
+    width: 100%
+    float:left;
+  }
+
+  .triSquare {
+      width: 100%;
+      border: 2px solid black;
+      display: inline-block;
+      float: left;
+      margin: 10px 1.5% 10px 1.5%;
+      height: 22rem;
+      background-color: gray;
+  }
+
+  .end {
+    display: none;
+  }
+
+
+}
+
+
+/* Meadia inquiries for mobile  */
+@media only screen and (max-width: 411px) {
+
+.browse img {
+  width: 100%;
+  float: left;
+}
+
+.browse span {
+  width: 100%
+  float:left;
+}
+
+.triSquare {
+    width: 100%;
+    border: 2px solid black;
+    display: inline-block;
+    float: left;
+    margin: 10px 1.5% 10px 1.5%;
+    height: 22rem;
+    background-color: gray;
+}
+
+.end {
+  display: none;
+}
+
+
+}
