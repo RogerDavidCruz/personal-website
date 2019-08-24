@@ -1,0 +1,393 @@
+*{box-sizing: border-box;
+
+}
+
+html {
+  font-size: 10px;
+}
+
+/* Header Section  */
+header {
+  height:125px;
+  width:100%;
+  border: 2px solid black;
+}
+
+header img {
+  float: left;
+  margin: 0 0 0 5%;
+}
+
+header span {
+    display: inline-block;
+    margin: 0 0 0 2%;
+    float: left;
+    font-size: 2rem;
+}
+
+header button {
+    float: left;
+    background-color: black;
+    color: white;
+    margin: 1rem 0 0 0;
+}
+
+header form input[type="text"] {
+    margin: 1rem 0 0 0;
+}
+
+.mainSec {
+  border: 2px solid black;
+}
+
+.followUs {
+    font-size: 2rem;
+    width: 39%;
+    float: left;
+    background: rgb(236,236,236);
+    margin: 0 0 0 24%;
+}
+
+.followUs ul {
+    margin: 0;
+    list-style: none;
+}
+
+.newsTabs ul {
+    margin: 1rem 0 0 0;
+}
+
+input[type="text"] {
+    float: left;
+}
+
+.followUs ul li:nth-child(1) {
+  float:left;
+  margin-right: 10%;
+}
+
+.followUs ul li a {
+    float: left;
+    display: inline-block;
+    margin-right: 3%;
+    text-decoration: none;
+}
+
+.newsTabs {
+  font-size: 2rem;
+  width: 30%;
+  margin: 0 0 0 0;
+  list-style: none;
+}
+
+.newsTabs ul {
+  list-style: none;
+}
+
+.newsTabs ul li {
+  list-style: none;
+  float: left;
+}
+
+.newsTabs ul li a {
+  list-style: none;
+  float: left;
+  display: inline-block;
+}
+
+.tenth {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(17,65,0);
+  display: block;
+  font-size: 2rem;
+  color: white;
+}
+
+section ul img {
+    height: 100px;
+    width: 51%;
+    margin: 5px 0 5px 0;
+    display: block;
+    float: left;
+}
+
+  header nav:last-of-type ul li {
+    height:auto;
+    width:auto;
+    float:left;
+    margin: 0 1% 0 0;
+  }
+
+nav section:last-of-type{
+  background: rgb(17,65,0);
+  color: white;
+  text-align: center;
+}
+
+/* WATCH NOW SECTION  */
+.watchNow {
+  background: white;
+  border: 2px solid black;
+  margin: 0 1% 0 1%;
+  float: left;
+  width: 47%;
+}
+
+.watchNow h2 {
+  margin: 1rem 0 1rem 2%;
+  width:60%;
+  float: left;
+  font-size: 3rem;
+}
+
+.watchNow h2 a {
+  text-decoration: none;
+  color: green;
+}
+
+.watchNow h4 {
+  margin: 10px 0 10px 2%;
+  width:60%;
+  float: left;
+  font-size: 2rem;
+}
+
+.watchNow i {
+  float: left;
+}
+
+.watchNow span {
+  float: left;
+  color: gray;
+  font-size: 1.4rem;
+}
+
+/* FEATURED STORIES SECTION  */
+.featured{
+  width: 25%;
+  background: white;
+  border: 2px solid black;
+  margin: 0 1% 0 0;
+  float: left;
+}
+
+.featured h2 {
+  margin: 1rem 0 1rem 2%;
+  font-size: 3rem;
+}
+
+.featured ul {
+  padding: 0;
+  list-style: none;
+}
+
+.featured ul h3 {
+  margin: 3rem 0 0rem 52%;
+  font-size: 1.8rem;
+}
+
+.featured ul span {
+  font-size: 1.2rem;
+}
+
+/* NEWS LETTER SECTION  */
+.newsletter{
+  width: 21%;
+  background: gray;
+  border: 2px solid black;
+  margin: 0 0 0 0;
+  float: left;
+}
+
+.newsletter > section {
+  border-top: 8px solid rgb(207,207,207);
+  border-bottom: 8px solid rgb(207,207,207);
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(233,233,233);
+}
+
+.newsletter > h3 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  background-color: rgb(17,65,0);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.newsletter h3 a {
+  text-decoration: none;
+  color: green;
+}
+
+.newsletter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.newsletter ul li {
+  list-style: none;
+  padding: 0.5rem 0 5.5rem 0;
+  font-size: 2rem;
+}
+
+iframe {
+    height: 40rem;
+    width: 100%;
+}
+
+.newsletter form {
+  margin-left: 5%;
+}
+
+.newsletter button {
+  background-color: rgb(14,139,1);
+  border: 2px solid rgb(14,139,1);
+  color: white;
+}
+
+.newsletter span {
+  display: block;
+  float: left;
+  margin: 0 0 0 8%;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.newsletter span a {
+  text-decoration: none;
+  color: green;
+}
+
+/* standard toals  */
+.border {
+  border: 2px solid black;
+}
+
+.float {
+  float: left;
+}
+
+.block {
+  display: block;
+}
+
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+
+/* media inquiries for ipad */
+
+@media (min-width:412px) and (max-width: 769px) {
+
+/* -------- */
+section ul img {
+  height: 10rem;
+  width: 100%;
+  margin: 5px 0 5px 0;
+  display: block;
+  float: left;
+}
+
+.watchNow {
+  background: white;
+  border: 2px solid black;
+  margin: 0 1% 0 1%;
+  float: left;
+  width: 100%;
+}
+
+.featured {
+  width: 100%;
+  background: white;
+  border: 2px solid black;
+  margin: 0 1% 0 0;
+  float: left;
+}
+
+.featured ul h3 {
+  margin:0;
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.newsletter {
+  width: 100%;
+  background: gray;
+  border: 2px solid black;
+  margin: 0 0 0 0;
+  float: left;
+}
+
+.newsletter span {
+    display: block;
+    float:none;
+    margin: 0 0 0 8%;
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+/* --------- */
+        }
+
+
+
+/* Meadia inquiries for mobile  */
+@media only screen and (max-width: 411px) {
+
+  section ul img {
+    height: 10rem;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    display: block;
+    float: left;
+}
+
+.watchNow {
+    background: white;
+    border: 2px solid black;
+    margin: 0 1% 0 1%;
+    float: left;
+    width: 100%;
+}
+
+.featured {
+    width: 100%;
+    background: white;
+    border: 2px solid black;
+    margin: 0 1% 0 0;
+    float: left;
+}
+
+.featured ul h3 {
+    margin:0;
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.newsletter {
+    width: 100%;
+    background: gray;
+    border: 2px solid black;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+        }
