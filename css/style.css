@@ -16,6 +16,10 @@
   text-decoration: underline;
 }
 
+.displayNone{
+  display: none;
+}
+
 body {
   background: #ffffff;
   color: #898989;
