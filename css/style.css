@@ -12,6 +12,28 @@
   font-size: 1.5rem;
 }
 
+.ion-social-linkedin:before {
+    content: "\f239";
+    font-size: 3rem;
+}
+
+.ion-social-github:before {
+    content: "\f233";
+    font-size: 3rem;
+}
+
+.ion-social-twitter:before {
+    content: "\f243";
+    font-size: 3rem;
+}
+
+.fa-angellist:before {
+    content: "\f209";
+    font-size: 3rem;
+}
+
+
+
 .underlineText{
   text-decoration: underline;
 }
@@ -256,7 +278,6 @@ nav ul li a {
   width: 100%;
 }
 
-
 #header .header-content {
   height: 100vh;
   text-align: left;
@@ -275,7 +296,7 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 30px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
