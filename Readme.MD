@@ -4,15 +4,6 @@ A personal website built to showcase different projects that I have worked on in
 **Homepage Cover**
 ![Cover Image of Login](images/homepage.png)
 
-**Login Page Cover**
-![Cover Image of Login](public/img/login-cover.png)
-
-**Signup Page Cover**
-![Cover Image of Signup](public/img/sign-up-cover.png)
-
-**Profile Page Cover**
-![Cover Image of Login](public/img/profile-cover.png)
-
 ## Usage
 
 1. Navigate to www.rogerdcruz.com
