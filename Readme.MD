@@ -2,7 +2,7 @@
 A personal website built to showcase different projects that I have worked on in the past and currently advancing as well.
 
 **Homepage Cover**
-![Cover Image of Login](public/img/homepage-cover.png)
+![Cover Image of Login](images/homepage.png)
 
 **Login Page Cover**
 ![Cover Image of Login](public/img/login-cover.png)
