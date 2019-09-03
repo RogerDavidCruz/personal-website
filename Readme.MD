@@ -6,7 +6,7 @@ A personal website built to showcase different projects that I have worked on in
 
 ## Usage
 
-1. Navigate to www.rogerdcruz.com
+1. Navigate to www.rogerdcruz.com or rogerdcruz.com
 
 ## How It's Made:
 
